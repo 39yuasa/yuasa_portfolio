@@ -1,0 +1,7 @@
+{
+  "observation": [
+    { "city": "tokyo", "hoge": "130000.json" },
+    { "city": "osaka", "hoge": "270000.json" },
+    { "city": "sapporo", "hoge": "016000.json" }
+  ]
+}
