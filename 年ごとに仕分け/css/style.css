@@ -1,0 +1,68 @@
+.now {
+  display: flex;
+  justify-content: center;
+}
+
+.now > .next {
+  font-size: 20px;
+  padding: 30px;
+}
+.now > .prev {
+  font-size: 20px;
+  padding: 30px;
+}
+
+.tr_1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+}
+.tr_1 > .weeks {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+}
+
+.tr_2 > .calendar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.tr_2 > .calendar > .number {
+  color: red;
+  width: 100%;
+  /* height: 150px; */
+  border: 1px solid #ccc;
+  margin: 2px;
+}
+
+.tr_2 > .calendar > .number > .text {
+  color: burlywood;
+}
+
+.tr_2 > .calendar > .null {
+  width: 100%;
+  /* height: 150px; */
+  border: 1px solid #ccc;
+  margin: 2px;
+  background-color: #ccc;
+}
+
+/* .limit {
+    display: flex;
+    justify-content: center;
+  } */
+/* .limit > #add {
+    background-color: #ccc;
+    margin-left: 10px;
+    padding: 0 10px;
+  } */
+
+.edit {
+  background-color: #ccc;
+  color: purple;
+}
