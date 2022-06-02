@@ -1,0 +1,70 @@
+/* 共通パーツ */
+/* 全体の中央寄せ */
+body {
+  box-sizing: border-box;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  height: inherit;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+/* 送信ボタン */
+.sub {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 7px 5px;
+}
+input[type="submit"] {
+  padding: 10px 5px;
+  text-align: center;
+}
+/* textarea */
+input[type="text"] {
+  height: 2.1em;
+}
+
+/* questionページ */
+body {
+  height: 100vh;
+  box-sizing: border-box;
+}
+.question_out {
+  display: flex;
+  height: inherit;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.question_question {
+  margin-bottom: 0.8rem;
+}
+.question_question p {
+  margin-bottom: 0.4rem;
+}
+/* h2 */
+h2 {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+.questions {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.question_end {
+  margin-bottom: 1.6rem;
+}
+.question_end h2 {
+  margin-bottom: 0.4rem;
+}
+/* lastページ */
