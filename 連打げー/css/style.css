@@ -1,0 +1,48 @@
+.rooter {
+  position: relative;
+  height: 70vh;
+  width: 100vw;
+}
+.root {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 100%;
+  /* display: none; */
+}
+.root_top {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 100%;
+  position: absolute;
+  top: 30%;
+  right: 80%;
+}
+.root_right {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+.root_left {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 100%;
+  position: absolute;
+  top: 10%;
+  right: 30%;
+}
+.root_bottom {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 100%;
+  position: absolute;
+  top: 80%;
+  right: 60%;
+}
