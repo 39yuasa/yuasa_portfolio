@@ -1,5 +1,5 @@
 # yuasa_portfolio
-gsap
+<h2>gsap</h2><br>
 制作期間：5月
 作ったきっかけ：Briskさんのblogを見たときに使用しており、animationには興味があったため。また、進級制作でも使っており本格的に理解したかった。<br>
 難しかったところ：cssとの連携が難しく、とぎれとぎれのanimationになってしまった。<br>
