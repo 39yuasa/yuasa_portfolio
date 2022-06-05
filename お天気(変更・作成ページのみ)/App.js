@@ -38,8 +38,8 @@ export const App = () => {
   } else {
     console.log(apiData);
     return (
-      <div className="app">
-        <h1 className="h1">天気予報</h1>
+      <div>
+        <h1>天気予報</h1>
         <Select HandleChange={HandleChange} />
         <PTag data={apiData} />
       </div>
