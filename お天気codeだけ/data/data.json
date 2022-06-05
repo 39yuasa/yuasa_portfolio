@@ -1,7 +1,0 @@
-{
-  "observation": [
-    { "city": "tokyo", "json": "130000.json" },
-    { "city": "osaka", "json": "270000.json" },
-    { "city": "sapporo", "json": "016000.json" }
-  ]
-}
