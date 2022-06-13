@@ -18,11 +18,12 @@ const array = [[], [], [], [], [], [], [], [], [], [], [], []];
 const handleBtn = document.querySelector(".judge");
 handleBtn.addEventListener("click", () => {
   const num = text_mouth.value;
-  for (let i = 1; i < 13; i++) {
-    num == i
-      ? array[i - 1].push({ key: text_day.value, text: text_main.value })
-      : null;
-  }
+  array[i - 1].push({ key: text_day.value, text: text_main.value });
+//   for (let i = 1; i < 13; i++) {
+//     num == i
+//       ? array[i - 1].push({ key: text_day.value, text: text_main.value })
+//       : null;
+//   }
   //inputタグの中を空にする
   text_mouth.value = "";
   text_day.value = "";
